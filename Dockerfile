@@ -2,7 +2,7 @@
 FROM debian:wheezy
 
 # File Author / Maintainer
-MAINTAINER tanaka@infocorpus.com
+MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends vim
