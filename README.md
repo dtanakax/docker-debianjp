@@ -4,14 +4,14 @@
 
 ### Base Docker Image
 
-[debian:wheezy](https://registry.hub.docker.com/_/debian/ "debian:wheezy")
+[debian:wheezy](https://registry.hub.docker.com/_/debian/)
 
 ### 説明
 
 debian:wheezyのロケールをja_JP.utf8へ変更したコンテナイメージです。
 
-[Dockerとは？](https://docs.docker.com/ "Dockerとは？")  
-[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/ "Docker Command Reference")
+[Dockerとは？](https://docs.docker.com/)  
+[Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
 ### 使用方法
 
@@ -21,11 +21,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t <tag>/debianjp .
+    $ docker build -t tanaka0323/debianjp .
 
 起動しbash実行
 
-    $ docker run --name <name> -ti <tag>/debianjp bash
+    $ docker run --name <name> -ti tanaka0323/debianjp bash
 
 ### License
 
