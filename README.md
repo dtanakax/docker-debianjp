@@ -1,19 +1,23 @@
 ![debian wheezy](https://img.shields.io/badge/debian-wheezy-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# docker-debianjp
+docker-debianjp
+=====================
 
-### Base Docker Image
+Base Docker Image
+---------------------
 
 [debian:wheezy](https://registry.hub.docker.com/_/debian/)
 
-### 説明
+説明
+---------------------
 
 debian:wheezyのロケールをja_JP.utf8へ変更したコンテナイメージです。
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
 
-### 使用方法
+使用方法
+---------------------
 
 git pull後に
 
@@ -27,7 +31,8 @@ git pull後に
 
     $ docker run --name <name> -ti tanaka0323/debianjp bash
 
-### License
+License
+---------------------
 
 The MIT License
 Copyright (c) 2015 Daisuke Tanaka
