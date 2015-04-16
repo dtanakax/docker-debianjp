@@ -4,15 +4,15 @@ FROM debian:wheezy
 # File Author / Maintainer
 MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
-RUN apt-get update
-RUN apt-get install -y --no-install-recommends vim
+RUN apt-get update && \
+    apt-get install -y vim && \
+    rm -rf /var/lib/apt/lists/*
+RUN apt-get clean all
 
 # Remove unnecessary language
 COPY locale-archive /usr/lib/locale/locale-archive
 
 ENV LANG ja_JP.utf8
-
-RUN apt-get clean
 
 # Set timezone
 RUN rm -f /etc/localtime
