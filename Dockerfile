@@ -5,7 +5,6 @@ FROM debian:wheezy
 MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
 
 RUN apt-get update && \
-    apt-get install -y vim && \
     rm -rf /var/lib/apt/lists/*
 RUN apt-get clean all
 
