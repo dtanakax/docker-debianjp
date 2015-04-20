@@ -11,7 +11,7 @@ RUN apt-get clean all
 # Remove unnecessary language
 COPY locale-archive /usr/lib/locale/locale-archive
 
-ENV LANG ja_JP.utf8
+ENV LANG ja_JP.UTF-8
 
 # Set timezone
 RUN rm -f /etc/localtime
