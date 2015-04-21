@@ -13,7 +13,7 @@ Base Docker Image
 説明
 ---------------------
 
-debianのロケールをja_JP.utf8へ変更したコンテナイメージです。
+debianのロケールをja_JP.utf8へ変更したコンテナ作成設定
 
 [Dockerとは？](https://docs.docker.com/)  
 [Docker Command Reference](https://docs.docker.com/reference/commandline/cli/)
