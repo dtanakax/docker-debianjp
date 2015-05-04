@@ -9,7 +9,6 @@ Base Docker Image
 [debian:wheezy](https://registry.hub.docker.com/_/debian/)  
 [debian:jessie](https://registry.hub.docker.com/_/debian/)
 
-
 説明
 ---------------------
 
@@ -24,11 +23,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t tanaka0323/debianjp .
+    $ docker build -t dtanakax/debianjp .
 
 起動しbash実行
 
-    $ docker run --name <name> -ti tanaka0323/debianjp bash
+    $ docker run --name <name> -ti dtanakax/debianjp bash
 
 License
 ---------------------
