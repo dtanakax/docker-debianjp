@@ -24,11 +24,11 @@ git pull後に
 
 イメージ作成
 
-    $ docker build -t tanaka0323/debianjp .
+    $ docker build -t dtanakax/debianjp .
 
 起動しbash実行
 
-    $ docker run --name <name> -ti tanaka0323/debianjp bash
+    $ docker run --name <name> -ti dtanakax/debianjp bash
 
 License
 ---------------------
