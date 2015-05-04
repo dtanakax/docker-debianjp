@@ -2,7 +2,7 @@
 FROM debian:wheezy
 
 # File Author / Maintainer
-MAINTAINER Daisuke Tanaka, tanaka@infocorpus.com
+MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
 
 RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
