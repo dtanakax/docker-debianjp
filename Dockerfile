@@ -1,5 +1,5 @@
 # Set the base image
-FROM debian:wheezy
+FROM debian:jessie
 
 # File Author / Maintainer
 MAINTAINER Daisuke Tanaka, dtanakax@gmail.com
